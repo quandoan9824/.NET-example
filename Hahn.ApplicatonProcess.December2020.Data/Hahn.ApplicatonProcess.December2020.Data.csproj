@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hahn.ApplicatonProcess.December2020.Domain">
+      <HintPath>..\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

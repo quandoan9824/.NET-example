@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.3.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="5.0.1" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.1-dev-00188" />
+    <PackageReference Include="Serilog.Settings.Configuration" Version="3.2.0-dev-00264" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hahn.ApplicatonProcess.December2020.Domain\Hahn.ApplicatonProcess.December2020.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Hahn.ApplicatonProcess.December2020.Data">
+      <HintPath>..\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Hahn.ApplicatonProcess.December2020.Domain">
+      <HintPath>..\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>

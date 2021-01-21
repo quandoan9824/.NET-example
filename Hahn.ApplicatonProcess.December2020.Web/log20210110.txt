@@ -1,0 +1,490 @@
+2021-01-10 16:06:22.883 +07:00 [INF] Starting web host
+2021-01-10 16:06:26.854 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:06:27.943 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:06:27.943 +07:00 [INF] Hosting environment: Development
+2021-01-10 16:06:27.943 +07:00 [INF] Content root path: C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web
+2021-01-10 16:06:28.067 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - -
+2021-01-10 16:06:28.413 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - - - 404 - - 341.6781ms
+2021-01-10 16:06:36.684 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:06:36.702 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:06:36.797 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:07:54.066 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:07:54.673 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-10 16:07:54.756 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 77947.1257ms
+2021-01-10 16:07:54.760 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:07:54.799 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 404 - application/json;+charset=utf-8 78115.3705ms
+2021-01-10 16:08:47.866 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/main application/json 217
+2021-01-10 16:08:47.881 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:08:47.893 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:09:12.845 +07:00 [ERR] Failed to send request.
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 404 ().
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at System.Net.Http.HttpClient.GetStreamAsyncCore(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Hahn.ApplicatonProcess.December2020.Domain.FormService.ProcessRequest(String country) in C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\BL\FormService.cs:line 46
+2021-01-10 16:09:15.876 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 16:09:15.892 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 27998.985ms
+2021-01-10 16:09:15.892 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:09:15.893 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/main application/json 217 - 400 - application/json;+charset=utf-8 28027.4197ms
+2021-01-10 16:09:24.339 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/main application/json 216
+2021-01-10 16:09:24.339 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:09:24.339 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:09:30.206 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:09:30.415 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 16:09:30.434 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 16:09:30.532 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 6192.8307ms
+2021-01-10 16:09:30.532 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:09:30.533 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/main application/json 216 - 201 - application/json;+charset=utf-8 6194.2651ms
+2021-01-10 16:09:41.628 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:09:41.630 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:09:41.631 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:09:45.008 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:09:45.026 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:09:45.034 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 3403.0601ms
+2021-01-10 16:09:45.035 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:09:45.036 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 3407.3409ms
+2021-01-10 16:11:57.871 +07:00 [INF] Starting web host
+2021-01-10 16:11:59.557 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:12:00.284 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:12:00.285 +07:00 [INF] Hosting environment: Development
+2021-01-10 16:12:00.285 +07:00 [INF] Content root path: C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web
+2021-01-10 16:12:00.401 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:12:00.401 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - -
+2021-01-10 16:12:00.445 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:12:00.552 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:00.565 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - - - 0 - - 166.7016ms
+2021-01-10 16:12:00.707 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:12:02.125 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:12:02.546 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2021-01-10 16:12:02.628 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 1911.3254ms
+2021-01-10 16:12:02.631 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:02.638 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 404 - application/json;+charset=utf-8 2242.4866ms
+2021-01-10 16:12:04.731 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/main application/json 216
+2021-01-10 16:12:04.733 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:04.775 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:12:06.434 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:12:06.665 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 16:12:06.690 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 16:12:06.771 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 1996.0467ms
+2021-01-10 16:12:06.771 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:06.772 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/main application/json 216 - 201 - application/json;+charset=utf-8 2041.7782ms
+2021-01-10 16:12:16.284 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:12:16.285 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:12:16.285 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:16.286 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:12:16.302 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:12:16.316 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:12:16.320 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 34.025ms
+2021-01-10 16:12:16.320 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:12:16.325 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 41.4285ms
+2021-01-10 16:35:32.431 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:35:32.432 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:35:32.432 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:35:32.432 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:35:32.436 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:35:32.438 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:35:32.439 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 7.1071ms
+2021-01-10 16:35:32.440 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:35:32.478 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 44.4249ms
+2021-01-10 16:35:38.976 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:35:38.976 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:35:38.976 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:35:38.977 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:35:38.978 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:35:38.979 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:35:38.981 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 4.308ms
+2021-01-10 16:35:38.982 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:35:38.985 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 9.4702ms
+2021-01-10 16:36:12.168 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:36:12.186 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:36:12.186 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:36:12.186 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:36:12.189 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:36:12.190 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:36:12.191 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 4.325ms
+2021-01-10 16:36:12.191 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:36:12.205 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 36.8315ms
+2021-01-10 16:36:29.849 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:36:29.849 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:36:29.849 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:36:29.849 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:36:29.852 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:36:29.853 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:36:29.853 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 3.9412ms
+2021-01-10 16:36:29.853 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:36:29.854 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 5.4508ms
+2021-01-10 16:37:25.474 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:37:25.474 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:37:25.475 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:37:25.475 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:37:25.477 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:37:25.479 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:37:25.492 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 16.5951ms
+2021-01-10 16:37:25.492 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:37:25.494 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 19.6445ms
+2021-01-10 16:39:03.595 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/main/Candidate01 - -
+2021-01-10 16:39:03.595 +07:00 [INF] CORS policy execution successful.
+2021-01-10 16:39:03.596 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:39:03.596 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:39:03.610 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:39:03.611 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 16:39:03.612 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 15.5649ms
+2021-01-10 16:39:03.612 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:39:03.622 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/main/Candidate01 - - - 200 - application/json;+charset=utf-8 26.5628ms
+2021-01-10 16:54:32.902 +07:00 [INF] Starting web host
+2021-01-10 16:54:35.465 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 16:54:36.392 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 16:54:36.392 +07:00 [INF] Hosting environment: Development
+2021-01-10 16:54:36.392 +07:00 [INF] Content root path: C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web
+2021-01-10 16:54:36.519 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - -
+2021-01-10 16:54:36.902 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - - - 404 - - 388.4988ms
+2021-01-10 16:55:33.444 +07:00 [INF] Request starting HTTP/1.1 POST https://localhost:44357/main application/json 216
+2021-01-10 16:55:33.452 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:55:33.660 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 16:55:37.007 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 16:55:37.539 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 16:55:37.578 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 16:55:37.720 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 4045.3025ms
+2021-01-10 16:55:37.720 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 16:55:37.740 +07:00 [INF] Request finished HTTP/1.1 POST https://localhost:44357/main application/json 216 - 201 - application/json;+charset=utf-8 4294.9343ms
+2021-01-10 17:06:13.051 +07:00 [INF] Request starting HTTP/1.1 GET https://localhost:44357/main/531629530 application/json 219
+2021-01-10 17:06:13.054 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 17:06:13.068 +07:00 [INF] Route matched with {action = "GetApplicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetApplicant(System.String) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 17:06:13.169 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 17:06:13.602 +07:00 [INF] Executing OkObjectResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.ServiceResponse'.
+2021-01-10 17:06:13.609 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web) in 538.4798ms
+2021-01-10 17:06:13.609 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.GetApplicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 17:06:13.610 +07:00 [INF] Request finished HTTP/1.1 GET https://localhost:44357/main/531629530 application/json 219 - 200 - application/json;+charset=utf-8 558.3885ms
+2021-01-10 22:44:54.484 +07:00 [INF] Starting web host
+2021-01-10 22:44:57.033 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-01-10 22:44:57.723 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-01-10 22:44:57.723 +07:00 [INF] Hosting environment: Development
+2021-01-10 22:44:57.724 +07:00 [INF] Content root path: C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Web
+2021-01-10 22:44:57.894 +07:00 [INF] Request starting HTTP/2 GET https://localhost:44357/ - -
+2021-01-10 22:44:58.108 +07:00 [INF] Request finished HTTP/2 GET https://localhost:44357/ - - - 404 - - 217.0147ms
+2021-01-10 22:49:53.283 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 22:49:53.310 +07:00 [INF] CORS policy execution successful.
+2021-01-10 22:49:53.313 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 41.7462ms
+2021-01-10 22:49:53.316 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 163
+2021-01-10 22:49:53.317 +07:00 [INF] CORS policy execution successful.
+2021-01-10 22:49:53.321 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 22:49:53.416 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 22:49:55.614 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 22:49:55.681 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 2244.4987ms
+2021-01-10 22:49:55.684 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 22:49:55.690 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 163 - 400 - application/json;+charset=utf-8 2373.8698ms
+2021-01-10 23:34:39.631 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:34:39.633 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:34:39.635 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 5.1340ms
+2021-01-10 23:34:39.642 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 160
+2021-01-10 23:34:39.642 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:34:39.654 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:34:39.657 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:34:40.423 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:34:40.424 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 767.2981ms
+2021-01-10 23:34:40.424 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:34:40.425 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 160 - 400 - application/json;+charset=utf-8 783.6091ms
+2021-01-10 23:35:30.023 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:35:30.025 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:35:30.026 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 2.3738ms
+2021-01-10 23:35:30.029 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 169
+2021-01-10 23:35:30.029 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:35:30.030 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:35:30.030 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:35:30.380 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:35:30.381 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 350.7642ms
+2021-01-10 23:35:30.381 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:35:30.381 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 169 - 400 - application/json;+charset=utf-8 351.8680ms
+2021-01-10 23:39:14.210 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:39:14.211 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:39:14.212 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 1.0777ms
+2021-01-10 23:39:14.240 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 163
+2021-01-10 23:39:14.241 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:39:14.241 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:39:14.241 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:39:14.965 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:39:14.965 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 724.0329ms
+2021-01-10 23:39:14.965 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:39:14.966 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 163 - 400 - application/json;+charset=utf-8 725.3809ms
+2021-01-10 23:40:18.940 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:40:18.940 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:40:18.941 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.7145ms
+2021-01-10 23:40:18.958 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 163
+2021-01-10 23:40:18.959 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:40:18.959 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:40:18.959 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:40:21.587 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:40:21.588 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 2628.8523ms
+2021-01-10 23:40:21.588 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:40:21.593 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 163 - 400 - application/json;+charset=utf-8 2630.7347ms
+2021-01-10 23:42:15.475 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:42:15.476 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:15.476 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4657ms
+2021-01-10 23:42:15.485 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 160
+2021-01-10 23:42:15.494 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:15.504 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:15.505 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:42:15.870 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:42:15.870 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 365.4225ms
+2021-01-10 23:42:15.870 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:15.871 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 160 - 400 - application/json;+charset=utf-8 385.7391ms
+2021-01-10 23:42:44.278 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:42:44.278 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:44.278 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.6029ms
+2021-01-10 23:42:44.290 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 160
+2021-01-10 23:42:44.290 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:44.291 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:44.291 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:42:44.915 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:42:44.916 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 624.7904ms
+2021-01-10 23:42:44.916 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:44.931 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 160 - 400 - application/json;+charset=utf-8 640.4194ms
+2021-01-10 23:42:55.603 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:42:55.603 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:55.603 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.6790ms
+2021-01-10 23:42:55.606 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 160
+2021-01-10 23:42:55.606 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:42:55.606 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:55.606 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:42:56.282 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:42:56.282 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 675.682ms
+2021-01-10 23:42:56.282 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:42:56.283 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 160 - 400 - application/json;+charset=utf-8 676.7052ms
+2021-01-10 23:43:35.709 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:43:35.710 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:43:35.710 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.7945ms
+2021-01-10 23:43:35.722 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:43:35.723 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:43:35.723 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:43:35.723 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:43:36.396 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:43:36.397 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 673.6767ms
+2021-01-10 23:43:36.397 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:43:36.398 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 675.9135ms
+2021-01-10 23:43:52.619 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:43:52.621 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:43:52.621 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 1.6293ms
+2021-01-10 23:43:52.623 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:43:52.624 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:43:52.624 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:43:52.624 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:43:53.212 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:43:53.212 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 588.4858ms
+2021-01-10 23:43:53.213 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:43:53.213 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 589.6781ms
+2021-01-10 23:46:39.904 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:46:39.904 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:46:39.905 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4339ms
+2021-01-10 23:46:39.907 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:46:39.907 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:46:39.907 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:46:39.907 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:46:41.026 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:46:41.027 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 1119.4633ms
+2021-01-10 23:46:41.027 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:46:41.028 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 1120.7144ms
+2021-01-10 23:46:52.264 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:46:52.265 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:46:52.265 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 1.0533ms
+2021-01-10 23:46:52.269 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:46:52.269 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:46:52.269 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:46:52.269 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:46:52.819 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:46:52.819 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 549.7248ms
+2021-01-10 23:46:52.819 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:46:52.834 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 565.0397ms
+2021-01-10 23:47:40.443 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:47:40.444 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:47:40.444 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 1.0709ms
+2021-01-10 23:47:40.466 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:47:40.467 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:47:40.467 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:47:40.467 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:47:41.077 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:47:41.077 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 610.2802ms
+2021-01-10 23:47:41.077 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:47:41.078 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 611.2832ms
+2021-01-10 23:47:56.267 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:47:56.267 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:47:56.267 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4890ms
+2021-01-10 23:47:56.270 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:47:56.270 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:47:56.270 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:47:56.270 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:47:56.846 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:47:56.847 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 576.8011ms
+2021-01-10 23:47:56.847 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:47:56.847 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 577.9627ms
+2021-01-10 23:49:05.428 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:49:05.429 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:49:05.440 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 11.8566ms
+2021-01-10 23:49:05.440 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:49:05.440 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:49:05.440 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:49:05.440 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:49:06.034 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:49:06.035 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 594.2208ms
+2021-01-10 23:49:06.035 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:49:06.037 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 595.3899ms
+2021-01-10 23:50:16.781 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:50:16.781 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:50:16.783 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 2.3630ms
+2021-01-10 23:50:16.794 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:50:16.794 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:50:16.794 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:50:16.795 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:50:17.420 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:50:17.420 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 625.7277ms
+2021-01-10 23:50:17.421 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:50:17.423 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 629.2312ms
+2021-01-10 23:50:38.712 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:50:38.712 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:50:38.712 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.5038ms
+2021-01-10 23:50:38.714 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:50:38.714 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:50:38.714 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:50:38.714 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:50:39.290 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:50:39.291 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 576.2258ms
+2021-01-10 23:50:39.291 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:50:39.295 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 580.8936ms
+2021-01-10 23:51:05.633 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:51:05.633 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:51:05.633 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4198ms
+2021-01-10 23:51:05.635 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:51:05.635 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:51:05.635 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:51:05.635 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:51:06.201 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:51:06.201 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 565.5487ms
+2021-01-10 23:51:06.201 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:51:06.202 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 566.6595ms
+2021-01-10 23:53:39.925 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:53:39.925 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:53:39.926 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.3281ms
+2021-01-10 23:53:39.957 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 161
+2021-01-10 23:53:39.957 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:53:39.957 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:53:39.958 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:53:40.675 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:53:40.676 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 717.826ms
+2021-01-10 23:53:40.676 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:53:40.681 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 161 - 400 - application/json;+charset=utf-8 719.0000ms
+2021-01-10 23:55:09.495 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:55:09.495 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:55:09.495 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.7169ms
+2021-01-10 23:55:09.517 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 168
+2021-01-10 23:55:09.518 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:55:09.518 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:55:09.519 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:55:10.095 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:55:10.095 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 576.57ms
+2021-01-10 23:55:10.095 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:55:10.096 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 168 - 400 - application/json;+charset=utf-8 578.4121ms
+2021-01-10 23:55:56.746 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:55:56.746 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:55:56.746 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.5399ms
+2021-01-10 23:55:56.750 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 174
+2021-01-10 23:55:56.750 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:55:56.751 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:55:56.751 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:55:57.339 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:55:57.339 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 588.4313ms
+2021-01-10 23:55:57.340 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:55:57.340 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 174 - 400 - application/json;+charset=utf-8 589.7715ms
+2021-01-10 23:56:19.903 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:56:19.904 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:56:19.904 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.5961ms
+2021-01-10 23:56:19.922 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 174
+2021-01-10 23:56:19.922 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:56:19.922 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:56:19.922 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:56:20.572 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:56:20.573 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 650.7032ms
+2021-01-10 23:56:20.573 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:56:20.574 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 174 - 400 - application/json;+charset=utf-8 651.9894ms
+2021-01-10 23:56:28.777 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:56:28.778 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:56:28.778 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.5343ms
+2021-01-10 23:56:28.780 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 174
+2021-01-10 23:56:28.780 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:56:28.780 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:56:28.780 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:56:29.347 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:56:29.348 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 566.9643ms
+2021-01-10 23:56:29.348 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:56:29.348 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 174 - 400 - application/json;+charset=utf-8 567.8018ms
+2021-01-10 23:57:21.128 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:57:21.128 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:57:21.128 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.3594ms
+2021-01-10 23:57:21.139 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 196
+2021-01-10 23:57:21.139 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:57:21.139 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:57:21.140 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:57:32.682 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:57:32.682 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:57:32.683 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4488ms
+2021-01-10 23:57:33.381 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 196
+2021-01-10 23:57:33.381 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:57:33.381 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:57:33.381 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:57:33.833 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 23:57:46.088 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 23:57:46.133 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 23:57:46.133 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 23:57:46.145 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 23:57:46.145 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 23:57:46.201 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 12819.6084ms
+2021-01-10 23:57:46.201 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 25061.3608ms
+2021-01-10 23:57:46.201 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:57:46.201 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:57:46.203 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 196 - 201 - application/json;+charset=utf-8 12822.2493ms
+2021-01-10 23:57:46.203 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 196 - 201 - application/json;+charset=utf-8 25064.0340ms
+2021-01-10 23:58:32.277 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:58:32.277 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:58:32.288 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 11.8842ms
+2021-01-10 23:58:32.288 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 182
+2021-01-10 23:58:32.288 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:58:32.288 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:58:32.288 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:58:32.912 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:58:32.913 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 624.4873ms
+2021-01-10 23:58:32.913 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:58:32.914 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 182 - 400 - application/json;+charset=utf-8 625.6576ms
+2021-01-10 23:58:51.573 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:58:51.573 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:58:51.573 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.3615ms
+2021-01-10 23:58:51.576 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 187
+2021-01-10 23:58:51.577 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:58:51.577 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:58:51.577 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:59:01.371 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 23:59:01.372 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 23:59:01.373 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 23:59:01.373 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 9796.3171ms
+2021-01-10 23:59:01.373 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:59:01.374 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 187 - 201 - application/json;+charset=utf-8 9797.3728ms
+2021-01-10 23:59:33.402 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:59:33.404 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:59:33.404 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 1.5070ms
+2021-01-10 23:59:33.415 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 182
+2021-01-10 23:59:33.415 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:59:33.415 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:59:33.415 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:59:34.061 +07:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2021-01-10 23:59:34.061 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 645.9763ms
+2021-01-10 23:59:34.062 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:59:34.072 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 182 - 400 - application/json;+charset=utf-8 657.3377ms
+2021-01-10 23:59:43.107 +07:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44357/main - -
+2021-01-10 23:59:43.107 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:59:43.107 +07:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44357/main - - - 204 - - 0.4783ms
+2021-01-10 23:59:43.109 +07:00 [INF] Request starting HTTP/2 POST https://localhost:44357/main application/json 204
+2021-01-10 23:59:43.110 +07:00 [INF] CORS policy execution successful.
+2021-01-10 23:59:43.110 +07:00 [INF] Executing endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:59:43.110 +07:00 [INF] Route matched with {action = "SaveAppicant", controller = "Main"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] SaveAppicant(Hahn.ApplicatonProcess.December2020.Domain.Applicant) on controller Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController (Hahn.ApplicatonProcess.December2020.Web).
+2021-01-10 23:59:43.674 +07:00 [INF] Entity Framework Core 5.0.1 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=Applicant 
+2021-01-10 23:59:43.675 +07:00 [INF] Saved 1 entities to in-memory store.
+2021-01-10 23:59:43.675 +07:00 [INF] Executing CreatedAtActionResult, writing value of type 'Hahn.ApplicatonProcess.December2020.Domain.Applicant'.
+2021-01-10 23:59:43.676 +07:00 [INF] Executed action Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web) in 565.7963ms
+2021-01-10 23:59:43.676 +07:00 [INF] Executed endpoint 'Hahn.ApplicatonProcess.December2020.Web.Controllers.MainController.SaveAppicant (Hahn.ApplicatonProcess.December2020.Web)'
+2021-01-10 23:59:43.678 +07:00 [INF] Request finished HTTP/2 POST https://localhost:44357/main application/json 204 - 201 - application/json;+charset=utf-8 569.1103ms

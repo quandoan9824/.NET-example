@@ -1,0 +1,9 @@
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.deps.json
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.pdb
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netstandard2.0\Hahn.ApplicatonProcess.December2020.Data.pdb

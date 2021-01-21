@@ -1,0 +1,12 @@
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.deps.json
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\ref\Hahn.ApplicatonProcess.December2020.Domain.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.pdb
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\ref\Hahn.ApplicatonProcess.December2020.Domain.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Domain\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.pdb

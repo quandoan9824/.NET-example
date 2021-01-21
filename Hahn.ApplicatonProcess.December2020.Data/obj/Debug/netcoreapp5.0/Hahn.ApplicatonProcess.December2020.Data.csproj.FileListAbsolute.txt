@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.deps.json
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\ref\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.pdb
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.AssemblyInfo.cs
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\ref\Hahn.ApplicatonProcess.December2020.Data.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.pdb
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.dll
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\bin\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Domain.pdb
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.csprojAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Hanah Project\Hahn.ApplicatonProcess.Application\Hahn.ApplicatonProcess.December2020.Data\obj\Debug\netcoreapp5.0\Hahn.ApplicatonProcess.December2020.Data.csproj.CopyComplete
